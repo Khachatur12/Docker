@@ -20,5 +20,15 @@ services:
       ASPNETCORE_ENVIRONMENT: Development
       ASPNETCORE_Kestrel__Certificates__Default__Password: admin123#1
       ASPNETCORE_Kestrel__Certificates__Default__Path: /https/dockertestapp.pfx
-
-  
+  mssql:
+    container_name: mssql-db
+    hostname: mssql-db
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+      ACCEPT_EULA: 'Y'
+      MSSQL_SA_PASSWORD: 'admin123#1'
+      MSSQL_DATA_DIR: /var/opt/mssql/data
+      MSSQL_PID: 'Developer' 
+      MSSQL_TCP_PORT: 1433 
+    ports: 
+      - "1433:1433"

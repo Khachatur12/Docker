@@ -2,7 +2,7 @@ using System;
 using System.Runtime.InteropServices;
 using Microsoft.AspNetCore.Mvc;
 
-namespace ColourAPI.Controllers
+namespace DockerTest.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

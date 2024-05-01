@@ -16,8 +16,8 @@ services:
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
       - NUGET_FALLBACK_PACKAGES=/.nuget/fallbackpackages;/.nuget/fallbackpackages2
     volumes:
-      - C:\Users\khach\OneDrive\Desktop\My\Work\Docker\DockerTest\DockerTest:/app
-      - C:\Users\khach\OneDrive\Desktop\My\Work\Docker\DockerTest:/src
+      - C:\Users\khach\OneDrive\Desktop\My\Work\Projects\Docker\DockerTest\DockerTest:/app
+      - C:\Users\khach\OneDrive\Desktop\My\Work\Projects\Docker\DockerTest:/src
       - C:\Users\khach\vsdbg\vs2017u5:/remote_debugger:rw
       - C:\Users\khach\.nuget\packages\:/.nuget/packages:ro
       - C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages:/.nuget/fallbackpackages:ro
