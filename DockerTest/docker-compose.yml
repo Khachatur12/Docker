@@ -2,6 +2,8 @@ version: '3.4'
 
 services:
   dockertest:
+    depends_on:
+      - "cache"
     build:
       context: .
       dockerfile: DockerTest/Dockerfile
@@ -32,3 +34,22 @@ services:
       MSSQL_TCP_PORT: 1433 
     ports: 
       - "1433:1433"
+    volumes:
+      - mssql-data:/var/opt/mssql
+  cache:
+    container_name: cache
+    hostname: cache
+    image: redis:6.2-alpine
+    restart: always
+    ports:
+      - '6379:6379'
+    volumes: 
+      - cache:/data
+    environment:
+      - REDIS_PASSWORD=admin123#1
+      - REDIS_PORT=6379
+volumes:
+  mssql-data:
+    driver: local
+  cache:
+    driver: local

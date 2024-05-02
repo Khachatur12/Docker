@@ -1,6 +1,6 @@
 using System.Data.SqlClient;
 
-namespace DockerTest.DB;
+namespace DockerTest.Services;
 public class DBService : IDisposable
 {
     public SqlConnection Connection { get; set; }

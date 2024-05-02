@@ -69,3 +69,6 @@ C:\Users\khach\OneDrive\Desktop\My\Work\Projects\Docker\DockerTest\DockerTest\ob
 C:\Users\khach\OneDrive\Desktop\My\Work\Projects\Docker\DockerTest\DockerTest\obj\Debug\net8.0\DockerTest.pdb
 C:\Users\khach\OneDrive\Desktop\My\Work\Projects\Docker\DockerTest\DockerTest\obj\Debug\net8.0\DockerTest.genruntimeconfig.cache
 C:\Users\khach\OneDrive\Desktop\My\Work\Projects\Docker\DockerTest\DockerTest\obj\Debug\net8.0\ref\DockerTest.dll
+C:\Users\khach\OneDrive\Desktop\My\Work\Projects\Docker\DockerTest\DockerTest\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\khach\OneDrive\Desktop\My\Work\Projects\Docker\DockerTest\DockerTest\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
+C:\Users\khach\OneDrive\Desktop\My\Work\Projects\Docker\DockerTest\DockerTest\bin\Debug\net8.0\StackExchange.Redis.dll
